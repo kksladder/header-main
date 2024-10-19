@@ -1,0 +1,115 @@
+/* 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    /* 폰트 프리텐다드 */
+}
+
+/* 상단 헤더 스타일 */
+.header {
+    width: 100%;
+    background-color: #d70011;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+}
+
+/* 로고 */
+.logo img {
+    height: 78px;
+    width: 156px;
+    padding-left: -15px;
+}
+
+/* 검색창 */
+.search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* 헤더 아이콘들 */
+.header-icons a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-icons i {
+    margin-right: 5px;
+}
+
+/* 오늘의 발견 버튼 */
+.today-button button {
+    background: linear-gradient(to right, #f56b6b, #f84d4d);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* GNB 스타일 */
+.gnb {
+    background-color: white;
+    width: 100%;
+}
+
+.gnb-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.gnb-menu li {
+    margin: 0 15px;
+}
+
+.gnb-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 하단 서브메뉴 */
+.sub-menu {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 5px;
+}
