@@ -71,6 +71,10 @@
 /* 오늘의 발견 버튼 */
 .today-button button {
     background: linear-gradient(to right, #f56b6b, #f84d4d);
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 20%;
     color: white;
     border: none;
     border-radius: 20px;
@@ -112,4 +116,13 @@
     text-decoration: none;
     color: #666;
     margin: 0 5px;
+}
+.user {
+    content: '\f007';
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+
+    content: '\f290';
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
 }
